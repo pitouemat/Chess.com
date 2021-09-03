@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.sidebar{
+    background: rgb(44, 43, 40);
+    float: left;
+    width: 160px;
+    
+    height: 100%;
+    overflow-y: auto;
+   padding: 2px;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+    border-right: 1px rgb(60,60,60)solid;
+    position: fixed;
+}
+
+.logo img{
+    width: 150px;
+    height: 82px;
+}
+
+.sidebar ul li{
+    list-style: none;
+    color: rgba(221, 218, 218, 0.795);
+    padding: 5px;
+    cursor: pointer;
+    
+}
+
+.sidebar ul li:hover{
+    background: rgb(27, 27, 26);
+}
+
+.sidebar ul li i{
+    margin-right: 5px;
+}
+
+main{
+    width: 90%;
+    background: rgb(64, 63, 59);
+    height: 100vh;
+    color: #DFDFDF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-left: 4rem;
+    margin-left: 7rem;
+}
